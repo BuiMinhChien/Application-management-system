@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif; 
+    /*background-color: #FEF4EA;*/
+    /*width: 100%;*/
+    /*min-height: 100vh;*/
+    background-image: url('../Image_component/bg-login.jpg'); 
+    background-size: cover; 
+    background-position: top-left; 
+    background-repeat: repeat; 
+}
+/*----------------------------------------------------------------------------------------------*/
+.navbar {
+    min-height: fit-content;
+    width: 15%; /* Độ rộng của sidebar */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+    position: fixed; /* Định vị cố định */
+    left: 3%; /* Đặt ở bên trái */
+    top: 20px; /* Bắt đầu từ đỉnh */
+    background-color: white; /* Màu nền */
+    word-wrap: break-word;
+    overflow-x: hidden; /* Không cho tràn ngang */
+    border: 1px solid #E04826;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+}
+.navbar a {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    text-decoration: none; /* Không gạch chân */
+    color: #E04826; /* Màu chữ */
+    font-weight: bold; /* In đậm */
+}
+.navbar img{
+    width: 100%;
+    display: block;
+    padding: 20px 0px;
+    border-bottom: 1px solid #E04826;
+}
+.navbar a:hover {
+    background-color: #FFEBE6; /* Thay đổi màu nền khi hover */
+}
+.content{
+    margin-top: 20px;
+    margin-left: 21%;
+    height: fit-content;
+    width: 76%;
+    background-color: white;
+    border: 1px solid #E04826;
+    border-radius: 20px;
+    line-height: 30px;
+}
+/*----------------------------------------------------------------------------------------------*/
+.title-page{
+    margin: 20px auto;
+    font-size: 35px;
+    color: #E04826;
+    font-weight: bold;
+    text-align: center;
+    word-wrap: break-word;
+}
+.img-background{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.infor{
+    font-size: 15px;
+    margin: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    word-wrap: break-word;
+}
+.infor-part{
+    width: fit-content;
+    margin-right: 15%;
+}
+.title-part{
+    color: #E04826;
+    font-weight: bold;
+}

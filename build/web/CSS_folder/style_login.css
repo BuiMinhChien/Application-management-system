@@ -1,0 +1,76 @@
+body {
+    font-family: sans-serif; /* Sử dụng font Open Sans, sau đó là các font sans-serif dự phòng */
+    background-image: url('../Image_component/bg-login.jpg');
+    width: 100%;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: top-left;
+    background-repeat: repeat;
+}
+.login-page {
+    width: 100%;
+    min-height: 100vh;
+/*    background-image: url('../Image_component/bg-login.jpg'); 
+    background-size: cover; 
+    background-position: top-left; 
+    background-repeat: repeat; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-login{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: auto;
+}
+.main-form-login{
+    min-height:467px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+}
+.image-fpt{
+    min-height:467px;
+    margin: 0px;
+    padding: 0px;
+}
+.main-form-login img{
+    width: 70%;
+}
+#login_text{
+    font-weight: bold;
+    color:#FF4701;
+    font-size: 25px;
+}
+#message{
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    color:#FF4701;
+    font-size: 15px;
+    word-wrap: break-word;
+}
+.image-fpt img{
+    min-height:467px;
+    width: 100%;
+}
+.form-control{
+    border-radius: 10px;
+}
+.btn-default{
+    background: #FF4701;
+    color: white;
+    border-radius: 10px;
+}
+.form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}

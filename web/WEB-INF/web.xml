@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="6.0" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_6_0.xsd">
+    <welcome-file-list>
+        <welcome-file>Login.jsp</welcome-file>
+    </welcome-file-list>
+    <!--//////////////////////////////////////////////////////-->
+    
+    <filter>
+        <filter-name>checkLoginFilter</filter-name>
+        <filter-class>Filter.checkLoginFilter</filter-class>
+    </filter>
+    <filter>
+        <filter-name>checkStudentFilter</filter-name>
+        <filter-class>Filter.checkStudentFilter</filter-class>
+    </filter>
+    <filter>
+        <filter-name>checkStaffFilter</filter-name>
+        <filter-class>Filter.checkStaffFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>checkLoginFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>checkStudentFilter</filter-name>
+        <url-pattern>/Application_form.jsp</url-pattern>
+        <url-pattern>/Notification.jsp</url-pattern>
+        <url-pattern>/Notification_detail.jsp</url-pattern>
+        <url-pattern>/ViewAllApplication.jsp</url-pattern>
+        <url-pattern>/header_Student.jsp</url-pattern>
+        <url-pattern>/createform</url-pattern>
+        <url-pattern>/getallapplication</url-pattern>
+        <url-pattern>/getallnoti</url-pattern>
+        <url-pattern>/getapplication</url-pattern>
+        <url-pattern>/readnotification</url-pattern>
+    </filter-mapping>
+    <filter-mapping>
+        <filter-name>checkStaffFilter</filter-name>
+        <url-pattern>/Create_new_Student_account.jsp</url-pattern>
+        <url-pattern>/Edit_infor_Student.jsp</url-pattern>
+        <url-pattern>/Response_form.jsp</url-pattern>
+        <url-pattern>/Show_all_student.jsp</url-pattern>
+        <url-pattern>/ViewAllPendingApplication.jsp</url-pattern>
+        <url-pattern>/ViewAllProcessedApplication.jsp</url-pattern>
+        <url-pattern>/ViewDetailStudent.jsp</url-pattern>
+        <url-pattern>/header_Staff.jsp</url-pattern>
+        <url-pattern>/createnewstudentaccount</url-pattern>
+        <url-pattern>/createresponse</url-pattern>
+        <url-pattern>/editstudentinfor</url-pattern>
+        <url-pattern>/exporttocsv</url-pattern>
+        <url-pattern>/getallpendingapplication</url-pattern>
+        <url-pattern>/getallprocessedapplication</url-pattern>
+        <url-pattern>/getallstudent</url-pattern>
+        <url-pattern>/getresponse</url-pattern>
+        <url-pattern>/importstudentfromcsv</url-pattern>
+        <url-pattern>/viewdetailstudent</url-pattern>
+    </filter-mapping>
+    
+    <!--//////////////////////////////////////////////////////-->
+</web-app>

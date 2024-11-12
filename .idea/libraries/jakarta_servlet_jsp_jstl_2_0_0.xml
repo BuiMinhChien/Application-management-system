@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="jakarta.servlet.jsp.jstl-2.0.0">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../JDK, NetBean 24/JDK, NetBean 24/jakarta.servlet.jsp.jstl-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../JDK, NetBean 24/JDK, NetBean 24/jakarta.servlet.jsp.jstl-api-2.0.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../JDK, NetBean 24/JDK, NetBean 24/javax.activation-1.2.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../JDK, NetBean 24/JDK, NetBean 24/javax.mail.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../JDK, NetBean 24/JDK, NetBean 24/sqljdbc42.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
